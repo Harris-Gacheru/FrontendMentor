@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.container .content{
+    width: 80vw;
+    height:100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 160px);
+    grid-template-areas: 
+    "user"
+    "work"
+    "play"
+    "study"
+    "exercise"
+    "social"
+    "self-care";
+    overflow-y: scroll;
+}
+
+.container .content .user{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content .user .user-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    height: 70px;
+}
+
+.container .content .user .user-details .user-avatar{
+    margin-top: 30px;
+}
+
+.container .content .user .user-details .user-avatar img{
+    width: 50px;
+    height: 50px;
+}
+
+.container .content .user .user-details .details h5{
+    font-size: 18px;
+}
+
+.container .content .user .timeline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    height: 30px;
+}
+
+.container .content ._details .bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .content ._details .bottom p:first-child{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(226, 43%, 10%);
+}
+
+.container .content{
+    width: 70vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "user work play study"
+    "user exercise social self-care";
+    gap: 25px;
+}
+
+.container .content .grid{
+    border-radius: 15px;
+    background-color: coral;
+    position: relative;
+}
+
+.container .content .user{
+    grid-area: user;
+    background-color: hsl(235, 46%, 20%);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: 
+    "user-details"
+    "timeline";
+}
+
+.container .content .user .user-details{
+    grid-area: user-details;
+    border-radius: 15px;
+    padding: 30px 25px;
+    background-color: hsl(246, 80%, 60%);
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content .user .user-details .user-avatar{
+    margin-bottom: 30px;
+}
+
+.container .content .user .user-details .details{
+    color: #fff;
+}
+
+.container .content .user .user-details .details h4{
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.container .content .user .user-details .details h5{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.container .content .user .user-details .user-avatar img{
+    width: 70px;
+    height: 70px;
+    padding: 0;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.container .content .user .timeline{
+    grid-area: timeline;
+    padding: 30px 25px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.container .content .user .timeline .active{
+    opacity: 1;
+}
+
+.container .content .user .timeline p{
+    margin-bottom: 10px;
+    color: #fff;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.container .content .work{
+    grid-area: work;
+    background-color: hsl(15, 100%, 70%);
+    position: relative;
+}
+
+.container .content .grid .bg-icon{
+    position: absolute;
+    top: 0px;
+    right: 8px;
+}
+
+.container .content ._details{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px 20px;
+    border-radius: 14px;
+    background-color: hsl(235, 46%, 20%);
+}
+
+.container .content ._details .top{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .content ._details .top .ellipsis{
+    cursor: pointer;
+}
+
+.container .content ._details .bottom{
+    padding: 20px 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content ._details .bottom p:first-child{
+    font-size: 34px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.container .content ._details .bottom p:last-child{
+    font-size: 13px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+.container .content .play{
+    grid-area: play;
+    position: relative;
+    background-color: hsl(195, 74%, 62%);
+}
+
+.container .content .study{
+    grid-area: study;
+    position: relative;
+    background-color: hsl(348, 100%, 68%);
+}
+
+.container .content .exercise{
+    grid-area: exercise;
+    position: relative;
+    background-color: hsl(145, 58%, 55%);
+}
+
+.container .content .social{
+    grid-area: social;
+    position: relative;
+    background-color: hsl(264, 64%, 52%);
+}
+
+.container .content .self-care{
+    grid-area: self-care;
+    position: relative;
+    background-color: hsl(43, 84%, 65%);
+}
