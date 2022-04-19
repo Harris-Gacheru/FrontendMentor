@@ -1,0 +1,270 @@
+:root{
+    --blue:#23a6f0; 
+    --darker-blue:#252b42; 
+    --navy-blue: rgb(7, 7, 87);
+    --purple: #b00cf4;
+}
+
+.landing{
+    height: 1220px;
+}
+
+.landing .inner-landing{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.landing .navbar{
+    background-color: #fff;
+    padding: 20px 15px;
+}
+
+.landing .navbar .menu .navbar-brand{
+    color: var(--darker-blue);
+}
+
+.landing .navbar .menu .options{
+    display: none;
+}
+
+.landing .navbar .membership{
+    display: none;
+}
+
+.landing .navbar .mobile-menu{
+    display: block;
+}
+
+.landing .mobile-menu-options{
+    display: block;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.landing .mobile-menu-options ul{
+    text-align: center;
+}
+
+.landing .mobile-menu-options ul li{
+    list-style: none;
+    margin: 20px 0;
+}
+
+.landing .mobile-menu-options ul li a{
+    text-decoration: none;
+    color: #9a9898;
+    font-size: 18px;
+}
+
+.landing .intro-text > div{
+    width: 80vw;
+    margin-top: 30px;
+}
+
+.landing .intro-text h4{
+    letter-spacing: 0;
+    line-height: 40px;
+}
+
+.landing .intro-text .options{
+    flex-direction: column;
+    margin: 0;
+}
+
+.landing .intro-text .options .quote,
+.landing .intro-text .options .learn{
+    margin: 10px 0;
+}
+
+.landing .qualities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.landing .qualities .card{
+    margin: 10px 0;
+}
+
+/* sect-qualities */
+.sect-qualities{
+    margin-top: 0;
+}
+
+.sect-qualities #sect-qualities{
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect-qualities #sect-qualities > div{
+    margin: 20px 0;
+}
+/* industry */
+.industry > div{
+    width: 100vw;
+}
+
+.industry .intro-text{
+    width: 75vw;
+}
+
+.industry .users{
+    flex-direction: column;
+}
+
+.industry .users .card{
+    margin: 20px 0;
+}
+/* partners */
+.partners #partners{
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+}
+
+.partners #partners img{
+    width: 80px;
+    height: 60px;
+    margin: 20px 0;
+}
+/* subscribe */
+.subscribe{
+    margin: 20px 0;
+}
+
+.subscribe #subscribe{
+    width: 100vw;
+    padding: 20px;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subscribe #subscribe p{
+    width: 80vw;
+    margin: 10px 0;
+}
+
+.subscribe #subscribe form{
+    margin: 10px 0;
+}
+
+/* pricing */
+.pricing{
+    margin: 30px 0;
+    padding: 0;
+}
+
+.pricing #pricing{
+    width: 100vw;
+}
+
+.pricing #pricing .intro-text{
+    width: 80vw;
+}
+
+.pricing #pricing .categories{
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.pricing #pricing .categories .card{
+    border-radius: 0;
+    width: 80vw;
+    margin: 20px auto;
+}
+
+/* appointment */
+.appointment{
+    height: 100%;
+}
+
+.appointment #appointment{
+    width: 100vw;
+}
+
+.appointment #appointment .top{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.appointment #appointment .top .text{
+    width: 80vw;
+    margin: 20px auto;
+}
+
+.appointment #appointment .top img{
+    width: 80vw;
+    margin: 20px auto;
+}
+
+.appointment #appointment .form{
+    flex-direction: column;
+    width: 80vw;
+    margin: 20px auto;
+    position: relative;
+    left: 0;
+}
+
+.appointment #appointment .form img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.appointment #appointment .form .appointment-form{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* contact */
+.contact #contact{
+    height: 100%;
+    padding: 30px 0;
+}
+
+.contact #contact{
+    width: 75vw;
+    flex-direction: column;
+}
+
+.contact #contact .text,
+.contact #contact .button{
+    margin: 20px 0;
+}
+
+/* quick links */
+.quick-links #quick-links{
+    width: 80vw;
+    margin: 0 auto;
+    padding: 30px 0;
+    flex-direction: column;
+}
+
+.quick-links #quick-links .col ul li a{
+    text-align: left;
+}
+
+/* footer */
+.footer #footer{
+    width: 75vw;
+    margin: 0 auto;
+    padding: 25px 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer #footer p,
+.footer #footer .social-links{
+    margin: 10px 0;
+}
