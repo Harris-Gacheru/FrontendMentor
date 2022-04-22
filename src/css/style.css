@@ -662,6 +662,15 @@ body{
     margin-top: -20px;
 }
 
+.quick-links #quick-links .intouch a{
+    display: flex;
+    align-items: center;
+}
+
+.quick-links #quick-links .intouch a span{
+    margin-right: 3px;
+}
+
 /* footer */
 .footer #footer{
     width: 75vw;

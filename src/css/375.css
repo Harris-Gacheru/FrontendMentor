@@ -234,7 +234,7 @@
 }
 
 .contact #contact{
-    width: 75vw;
+    width: 70vw;
     flex-direction: column;
 }
 
@@ -245,19 +245,20 @@
 
 /* quick links */
 .quick-links #quick-links{
-    width: 80vw;
+    width: 65vw;
     margin: 0 auto;
     padding: 30px 0;
     flex-direction: column;
 }
 
-.quick-links #quick-links .col ul li a{
-    text-align: left;
+.quick-links #quick-links .col{
+    width: 100%;
+    margin: 10px 0;
 }
 
 /* footer */
 .footer #footer{
-    width: 75vw;
+    width: 70vw;
     margin: 0 auto;
     padding: 25px 0;
     flex-direction: column;
