@@ -165,14 +165,14 @@ body{
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -65px;
+    bottom: -79px;
 }
 
 .landing .qualities .card{
-    padding: 15px 25px;
+    padding: 25px;
     width: 300px;
     background-color: #fff;
-    box-shadow: 1px 1px 10px rgb(90, 90, 90);
+    box-shadow: 1px 1px 3px #5c5c5c;
     border: none;
 }
 
@@ -706,7 +706,7 @@ body{
 
 .icon{
     color: var(--blue);
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .bg-blue{
